@@ -1,0 +1,73 @@
+section.info{
+    flex:1 1 auto;
+    background-color:rgb(242, 240, 243);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+section.info ul {
+    list-style-type: none;
+}
+
+
+div.services-info, div.contacts, form.start-form {
+    padding:0 4em;
+}
+
+div.services-info h2{
+    font-size:2em;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+header.contact{
+    padding-left:4rem;
+    font-size:2em;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    border-bottom:2px solid black;
+}
+
+
+ul.serv>li{
+margin-bottom:2em;
+}
+
+li.point>p:before {
+content:'➔';
+border-radius:50%;
+background:black;
+color:white;
+padding:0 0.1em;
+margin-right:1em;
+}
+
+p>span.point-line{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+div.contacts{
+    padding-top:2em;
+}
+
+.contacts>ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: start;;
+}
+
+.contacts>ul>li {
+    flex:0 1 auto;
+    padding-right:2em;
+    margin-bottom:1em;
+}
+
+.contacts>ul>li::first-letter {
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+

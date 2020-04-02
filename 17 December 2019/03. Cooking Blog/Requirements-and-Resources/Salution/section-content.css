@@ -1,0 +1,30 @@
+section.content{
+    background-color:rgb(230, 227, 222);
+}
+
+.content>ul{
+    list-style-type: none;
+}
+
+li.cont-pt{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items:center ;
+    margin-top: 3em;    
+}
+
+li.cont-pt>img{
+    height: 40em;
+    width: auto;
+}
+
+.cont-pt div.info{
+    flex:1 1 auto;
+    padding:0 3em;
+    text-align: center;
+}
+
+.cont-pt div.info>p{
+    font-size: 1.5em;
+    margin:0.2rem 0 1.5rem 0;
+}

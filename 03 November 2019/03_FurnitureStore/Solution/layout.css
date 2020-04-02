@@ -1,0 +1,14 @@
+site {
+    display:block;
+    /* padding:2em; */
+}
+
+.main-width{
+    max-width:100em;
+    margin:0 auto;
+}
+
+section.info{
+    padding: 2em 1em 0 1em;
+    display:flex;
+}

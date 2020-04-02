@@ -1,0 +1,37 @@
+section.comerse{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.comerse>div.desc{
+    flex:0 0 auto;
+    padding-right:5%;
+}
+
+.desc>h3{
+    color: rgb(249, 55, 0);
+    font-size:3em;
+    margin: 5rem 0 0.5rem 0;
+}
+
+.desc>p{
+    color:rgb(134, 131, 129);
+    padding-bottom:1em;
+}
+
+.desc>button{
+    color:white;
+    background-color:  rgb(249, 55, 0);
+    border:none;
+    border-radius: 0.33em;
+    padding:0.5em 1em;
+}
+
+.comerse>media {
+    flex: 1 0 1px;
+}
+
+.comerse>media>img{
+    width:100%;
+    height:auto;
+}

@@ -1,0 +1,21 @@
+section.gallery{
+    padding:2.5% 0;
+}
+section.gallery>ul {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+section.gallery>ul>li{
+    flex:0 0 23%;
+    list-style: none;
+    text-align: center;
+    color:rgb(128, 128, 130);
+}
+
+section.gallery>ul>li>img{
+    width:100%;
+    height: auto;
+}

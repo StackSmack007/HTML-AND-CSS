@@ -1,0 +1,45 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./layout.css";
+site {
+    background-color:rgb(255, 217, 176);
+}
+
+article.card {
+background-color:black;
+border-radius: 1em;
+}
+
+section.info{
+color:white;
+padding:7em 5em;
+}
+
+.info h5{
+    text-align: center;
+    padding-bottom:3em;
+    font-weight: 600;
+}
+
+.card>media>img {
+border-radius: 1em 0 0 1em;
+width: 100%;
+height: auto;
+display:block;
+}
+
+.info>ul>li {
+    list-style: none;
+    color:rgb(174, 172, 167);
+    margin-bottom:2.5em;
+    padding-bottom:0.5em;
+    border-bottom:1px solid rgb(174, 172, 167);
+}
+
+.info>button{
+    background-color:rgb(237, 183, 125);
+    padding: 1em 2em;
+    color:white;
+    border:none;
+    border-radius:.25em;
+}

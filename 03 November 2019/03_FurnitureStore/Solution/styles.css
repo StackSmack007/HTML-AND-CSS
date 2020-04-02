@@ -1,0 +1,11 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./header_footer.css";
+@import "./gallery.css";
+@import "./comerse.css";
+@import "./features.css";
+
+body{
+    background-color:rgb(240, 228, 228);
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5 'Lato', sans-serif;
+    padding:2em;
+}
+
+*{
+    font:inherit;
+}
+
+img,div,ul,li,ol,span,p,h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+
+*::before,*:after{
+    box-sizing: inherit;
+}
+
+main{
+    width:100em;
+    margin:0 auto;
+}
+
+section {
+    width:50%;
+    margin:0 auto;
+}
+
+header.header-tab {
+    width:6em;
+    box-sizing: content-box;
+    padding:0.5em 0.75em;
+    background:rgb(66, 171, 248);
+    color:white;
+    border-radius: 0.5em 0.5em 0 0;
+    margin-left:auto;
+    text-align: center;
+}
+
+section>ul.options{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+section>ul.options>li{
+    flex:0 0 100%;
+    padding:1em 3em 1em 1em;
+    display:flex;
+    justify-content: space-between;
+    background:rgb(244, 245, 247);
+    margin:0.15em 0;
+}
+
+i.fa-check-circle:before {
+    color:rgb(35, 190, 94);
+    font-size: 1.5em;
+}

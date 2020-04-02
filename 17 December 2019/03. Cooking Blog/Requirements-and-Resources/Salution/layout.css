@@ -1,0 +1,19 @@
+site {
+    display:block;
+}
+
+.main-width-1{
+    width:90em;
+    margin:0 auto;
+}
+.main-width-2{
+    width:70em;
+    margin:0 auto;
+}
+
+article.card>media{
+    flex:0 0 60%;
+}
+section.info{
+flex:0 0 40%;
+}

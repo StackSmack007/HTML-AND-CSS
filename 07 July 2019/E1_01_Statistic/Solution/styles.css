@@ -1,0 +1,76 @@
+@import "./reset.css";
+@import "./typography.css";
+@import "./layout.css";
+
+body {
+    background-color:lightgrey;
+}
+
+section {
+    display:flex;
+    align-items: center;
+    width:60%;
+    margin:auto auto;
+    position:relative;
+    color:white;
+}
+section:before{
+    display:block;
+    content:'';
+    padding-top:27.075%;
+}
+
+section:after{
+    content: '✖';
+    position: absolute;
+    padding:0 .8em;
+    top:0em;
+    right:0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:white;
+}
+
+media {
+    display:block;
+    z-index: -1;
+    position:absolute;
+}
+
+
+media:after{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(5, 5, 48, 0.7);
+    content:'';
+}
+
+media>img {
+width: 100%;
+height:auto;
+}
+
+section.site-info>ul{
+    width:90%;
+    margin:0 auto;
+display:flex;
+list-style-type: none;
+justify-content: space-around;
+}
+section.site-info>ul>li{
+    text-align: center;
+}
+
+section.site-info>ul>li>p:nth-of-type(1){
+   font-weight: bold;
+   font-size:1.7em;
+
+}
+
+i{
+    color:rgb(236, 132, 33);
+    font-size:2em;
+}

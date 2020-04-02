@@ -1,0 +1,74 @@
+@media screen and (max-width: 1024px) {
+    div.site-logos-container {
+    display:flex;
+    flex-wrap: nowrap; 
+    }
+    div.site-logo{
+        /* display: block; */
+    flex:1 1 1em;
+    }
+    .site-logo img{
+        width:auto;
+        height:auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    div.site-logos-container {
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: start;
+    }
+    div.site-logo{
+    flex:0 0 33%;
+    font-size: 1.3em;
+    padding-bottom:.6em;
+    }
+    .site-logo:not(:last-child) {
+        margin-right: 0; 
+    }
+    .site-logo img{
+        width:60%;
+        height:auto;
+    }
+section.site-information-text{
+    flex:0 0 100%;
+    text-align: center;
+}
+section.site-information-text>p{margin:0 auto;}
+
+section.site-information-image{
+    display:none;
+}
+
+section.site-form-container > form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.site-form-container > form p{
+display:flex;
+flex-direction: column;
+}
+
+section.site-form-container > form>button {
+    margin:0 auto;
+}
+
+section.site-posts {
+    display:flex;
+    flex-direction: column;
+}
+.entry-header-container>p{
+    top:0;
+    left:3.5rem;
+}
+.entry-header-container>h1{font-size: 2.4rem;}
+.entry-header-container>h1::first-letter{font-size: 4rem;}
+
+section.entry-header {  
+    padding-top:5em; 
+    height: 20em;
+}
+}

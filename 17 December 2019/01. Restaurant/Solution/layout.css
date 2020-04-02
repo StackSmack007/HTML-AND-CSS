@@ -1,0 +1,17 @@
+site {
+    display:block;
+    padding:2em;
+}
+
+article.card {
+    width:100em;
+    margin:0 auto;
+    display:flex;
+}
+
+article.card>media{
+    flex:0 0 60%;
+}
+section.info{
+flex:0 0 40%;
+}

@@ -1,0 +1,25 @@
+form.start-form {
+    display:flex;
+    margin-bottom: 3em;
+}
+
+.start-form>input {
+    flex:0 0 20em;
+    border-radius: .5em;
+    border:none;
+    height:2em;
+    background-color: rgba(186, 177, 173);
+    margin-right: 2em;
+}
+.start-form>input::placeholder{
+    color: white;
+    padding-left:.75em;
+}
+
+.start-form>button {
+    border: none;
+    border-radius: .5em;
+    color: white;
+    background-color: rgb(103, 120, 77);
+    padding: 0.2em 1.5em;
+}

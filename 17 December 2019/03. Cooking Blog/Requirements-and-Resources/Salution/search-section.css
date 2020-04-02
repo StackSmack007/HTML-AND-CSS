@@ -1,0 +1,27 @@
+section.search{
+    display:block;
+    height: 30em;
+    background-image: url("../Media/craving.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.search>div.nav{
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    color:white;
+}
+
+input.crave-bar {
+    width:20em;
+    background:rgba(256,256,256,0.6);
+    border:none;
+    padding:0.5em 1em;
+}
+
+
+
+
